@@ -1,0 +1,68 @@
+site_name: Hyperetail Primo Livello - Installazione e prima configurazione
+site_url: https://ivanrobuschi-custom.github.io/hyperetail_level_1/
+site_author: Custom S.p.A.
+
+theme:
+  name: material
+  logo: assets/icons/logo.png
+  favicon: assets/icons/favicon.png
+  language: it
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.preview
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.sections
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.footer
+  palette:
+    primary: blue grey
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - tags
+
+copyright: Copyright Custom S.p.A 2026
+
+nav:
+  - Home: index.md
+  - Introduzione:
+      - Panoramica di Hyperetail: 01-panoramica-hyperetail.md
+  - Installazione:
+      - Download di HyperSide: 02-download-hyperside.md
+      - Installazione di Hyperetail: 03-installazione-hyperetail.md
+      - Licenza e attivazione demo: 04-licenza-e-attivazione.md
+  - Primo avvio:
+      - Operatori, Disegnatore e pagine POS: 05-operatori-disegnatore-pagine.md
+  - Configurazione di base:
+      - Reparti e aliquote IVA: 06-reparti.md
+      - Anagrafica articoli semplificata: 07-anagrafica-articoli.md
+      - Articoli avanzati: 08-articoli-avanzati.md
+      - Listini e maschere EAN: 09-listini-e-maschere-ean.md
+      - Dati azienda e parametri generali: 10-azienda-parametri-generali.md
+  - Cassa e contabilità:
+      - Parametri di barriera e gruppi POS: 11-parametri-barriera-gruppo-pos.md
+      - Pagamenti, codici movimento e causali: 12-pagamenti-movimenti-causali.md
+  - Schermata di vendita:
+      - Personalizzazione e uso della schermata di vendita: 13-schermata-di-vendita.md
+  - Collegamento dispositivi:
+      - File INI, registratore telematico, cassetto e POS: 14-file-ini-dispositivi.md
+  - Riepilogo:
+      - Checklist di installazione: 15-checklist-installazione.md
